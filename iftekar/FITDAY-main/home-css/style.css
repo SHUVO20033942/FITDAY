@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.solve {
+  overflow: hidden;
+}
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+p {
+  font-size: 12px;
+}
+a {
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+}
+
+.ditails_of_product img {
+  height: auto;
+  width: 100%;
+}
+.product_anchor a {
+  background: #000000 none repeat scroll 0 0;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.div_nav_iftekar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.div_nav_iftekar ul li {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+.div_nav_iftekar ul li a {
+  background: #000000 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  margin: 0 12px 0 0;
+  padding: 5px 0;
+  text-align: center;
+}
+.div_nav_iftekar ul li:first-child a {
+  background: #ffffff;
+  color: #000000;
+}
+.div_nav_iftekar ul li:last-child a {
+  background: #00a743;
+  color: #000000;
+}
+
+.fitday-store-home {
+  background: #000000 none repeat scroll 0 0;
+  padding: 15px 0;
+}
+
+.ditails_of_product {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.single-characters-small-inner-text {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+.single-characters-small-inner-text::before {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  transform: scale(0);
+  -moz-transform: scale(0);
+  -webkit-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  width: 100%;
+  transition: 0.6s;
+  -moz-transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+.ditails_of_product:hover .single-characters-small-inner-text::before {
+  transform: scale(1);
+}
+
+.single_masonary_content h2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+.single_masonary_content p {
+  font-size: 12px;
+  margin: 0;
+}
+.single_masonary_content {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 999;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  padding: 0 10px;
+}
+.single_masonary_content {
+  display: none;
+}
+.ditails_of_product:hover .single_masonary_content {
+  display: block;
+}
+.single_masonary_content a {
+  background: #00a743 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 10px 30px;
+}
+.single_masonary_content a:hover {
+  text-decoration: none;
+}
+
+.fitday_contact_inner a {
+  border: 2px solid #ddd;
+  color: #565656;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.fitday_contact {
+  padding: 40px 0;
+}
+.fitday_contact_inner_text_con p {
+  color: #565656;
+}
